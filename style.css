@@ -1,5 +1,29 @@
 * {
     font-size: 48px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
+    font-family: "Press Start 2P", system-ui;
+    color: #000000;
+    text-decoration: none;
+    line-height: 69px;
+    background-color: #000000;
+    color: rgb(255, 0, 200);
+}
+
+.mainPageContent {
+    display: flex;
+    margin: 10%;
+}
+
+.mainPageContent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPageRedirect {
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+a:hover {
+    color: rgb(255, 154, 233);
 }
