@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gymTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 48px;
+}
+
+.gymSubSect {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.gymSubSect p:hover {
+    color: fuchsia;
+    cursor: pointer;
+}
